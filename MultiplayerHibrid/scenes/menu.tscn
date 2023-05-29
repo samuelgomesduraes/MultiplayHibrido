@@ -1,0 +1,61 @@
+[gd_scene load_steps=3 format=3 uid="uid://qlpu3f4j01ka"]
+
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_cqyvx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hpajb"]
+size = Vector2(3155, 27)
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cqyvx")
+
+[node name="fundo" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.290196, 0.176471, 0.764706, 1)
+
+[node name="CriarServidor" type="Button" parent="."]
+layout_mode = 2
+offset_left = 10.0
+offset_top = 9.0
+offset_right = 175.0
+offset_bottom = 78.0
+text = "criar"
+
+[node name="EntrarServidor" type="Button" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 88.0
+offset_right = 174.0
+offset_bottom = 153.0
+text = "entrar"
+
+[node name="mundo" type="Node2D" parent="."]
+position = Vector2(534, 229)
+
+[node name="chao" type="StaticBody2D" parent="mundo"]
+position = Vector2(-310, 374)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mundo/chao"]
+position = Vector2(371.5, 3.5)
+shape = SubResource("RectangleShape2D_hpajb")
+
+[node name="ColorRect" type="ColorRect" parent="mundo/chao"]
+offset_left = -290.0
+offset_top = -10.0
+offset_right = 997.0
+offset_bottom = 17.0
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://scenes/jogador.tscn")
+spawn_path = NodePath("../mundo")
+spawn_limit = 5
+
+[connection signal="pressed" from="CriarServidor" to="." method="_on_criar_servidor_pressed"]
+[connection signal="pressed" from="EntrarServidor" to="." method="_on_entrar_servidor_pressed"]

@@ -1,0 +1,12 @@
+AnimatedSprite2D
+ColorRect
+Button
+Label
+CollisionShape2D
+StaticBody2D
+MultiplayerSpawner
+MultiplayerSynchronizer
+Node2D
+Container
+Sprite2D
+CharacterBody2D

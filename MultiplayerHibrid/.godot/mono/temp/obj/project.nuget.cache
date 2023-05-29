@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "p1byKf3K2Y7B2+hwYC5o1oCBfYi9JqgmbzxHNCdu3SjVae9p85yUlp/EbVgk7rheZjYLrpF5Y/bpgvPeSeLWoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samue\\Documents\\meuMultiplayer\\meuMultiplayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samue\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.2\\godot.sourcegenerators.4.0.2.nupkg.sha512",
+    "C:\\Users\\samue\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.2\\godotsharp.4.0.2.nupkg.sha512",
+    "C:\\Users\\samue\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.2\\godotsharpeditor.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

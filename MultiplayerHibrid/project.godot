@@ -1,0 +1,21 @@
+config_version=5
+
+[application]
+
+config/name="MultiplayerHibrido"
+run/main_scene="res://scenes/menu.tscn"
+config/features=PackedStringArray("4.0", "C#", "GL Compatibility")
+config/icon="res://CyberIcon.png"
+
+[display]
+
+window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="meuMultiplayer"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
