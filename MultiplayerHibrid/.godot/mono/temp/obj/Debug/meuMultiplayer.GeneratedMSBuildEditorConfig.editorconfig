@@ -1,5 +1,5 @@
 is_global = true
-build_property.GodotProjectDir = C:\Users\samue\Documents\meuMultiplayer\
+build_property.GodotProjectDir = C:\Users\samue\Documents\GitHub\MultiplayHibrido\MultiplayerHibrid\
 build_property.GodotProjectDirBase64 = 
 build_property.GodotSourceGenerators = 
 build_property.IsGodotToolsProject = 
@@ -11,4 +11,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = meuMultiplayer
-build_property.ProjectDir = C:\Users\samue\Documents\meuMultiplayer\
+build_property.ProjectDir = C:\Users\samue\Documents\GitHub\MultiplayHibrido\MultiplayerHibrid\

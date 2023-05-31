@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p1byKf3K2Y7B2+hwYC5o1oCBfYi9JqgmbzxHNCdu3SjVae9p85yUlp/EbVgk7rheZjYLrpF5Y/bpgvPeSeLWoA==",
+  "dgSpecHash": "+z+ya0+cFj0+ZgxmB9StI+T711xG4wlJDaHUj7M49bWL6D4ps/0l/UZWT7sUA8NUVccDMb7Renw3EFY+YP6KEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samue\\Documents\\meuMultiplayer\\meuMultiplayer.csproj",
+  "projectFilePath": "C:\\Users\\samue\\Documents\\GitHub\\MultiplayHibrido\\MultiplayerHibrid\\meuMultiplayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samue\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.2\\godot.sourcegenerators.4.0.2.nupkg.sha512",
     "C:\\Users\\samue\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.2\\godotsharp.4.0.2.nupkg.sha512",

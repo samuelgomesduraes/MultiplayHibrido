@@ -91,11 +91,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\samue\\Documents\\meuMultiplayer\\meuMultiplayer.csproj",
+      "projectUniqueName": "C:\\Users\\samue\\Documents\\GitHub\\MultiplayHibrido\\MultiplayerHibrid\\meuMultiplayer.csproj",
       "projectName": "meuMultiplayer",
-      "projectPath": "c:\\Users\\samue\\Documents\\meuMultiplayer\\meuMultiplayer.csproj",
+      "projectPath": "C:\\Users\\samue\\Documents\\GitHub\\MultiplayHibrido\\MultiplayerHibrid\\meuMultiplayer.csproj",
       "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\samue\\Documents\\meuMultiplayer\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "C:\\Users\\samue\\Documents\\GitHub\\MultiplayHibrido\\MultiplayerHibrid\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\samue\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"

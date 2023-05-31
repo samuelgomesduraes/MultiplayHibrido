@@ -1,2 +1,3 @@
 res://scenes/jogador.tscn
+res://scripts/menu.gd
 res://scenes/menu.tscn
